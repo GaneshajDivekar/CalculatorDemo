@@ -64,6 +64,7 @@ class AppModule(private val baseUrl: String, val context: Context) {
     fun providesGson(): Gson = GsonBuilder().serializeNulls().create()
 
 
+
     @Singleton
     @Provides
     fun providesLoggingInterceptor(tokenManger: TokenManger, gson: Gson) = TokenInterceptor(tokenManger, gson).apply {
