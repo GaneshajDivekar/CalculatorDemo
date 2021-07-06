@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CalculatorDemo</string>
+    <string name="formula_divide_by_zero_error">Error: division by zero</string>
+</resources>
